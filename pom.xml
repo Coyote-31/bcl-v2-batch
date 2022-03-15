@@ -34,8 +34,18 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- Project Lombok - https://projectlombok.org/ -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
+
 	<dependencyManagement>
+
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
@@ -45,6 +55,7 @@
 				<scope>import</scope>
 			</dependency>
 		</dependencies>
+		
 	</dependencyManagement>
 
 	<build>

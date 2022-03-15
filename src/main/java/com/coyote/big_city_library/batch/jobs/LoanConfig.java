@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Configuration
 @EnableScheduling
 public class LoanConfig {
@@ -21,7 +24,7 @@ public class LoanConfig {
     @Scheduled(cron = "${cron.user_loan_reminder}", zone = "${cron.zone}")
     public void userLoanReminder()  {
 
-        System.out.println("Task : userLoanReminder - " + System.currentTimeMillis() / 1000);
+        log.debug("Task : userLoanReminder - " + System.currentTimeMillis() / 1000);
         loanClient.userLoanReminder(bearerJwt);
     }
 }
