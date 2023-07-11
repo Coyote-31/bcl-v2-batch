@@ -1,0 +1,19 @@
+{
+    "properties": [
+        {
+            "name": "cron.user_loan_reminder",
+            "type": "java.lang.String",
+            "description": "Define the cron of the job"
+        },
+        {
+            "name": "jwt.big_city_library.rest_server",
+            "type": "java.lang.String",
+            "description": "JWT token to access the back-end"
+        },
+        {
+            "name": "cron.zone",
+            "type": "java.lang.String",
+            "description": "Timezone of the cron job"
+        }
+    ]
+}
