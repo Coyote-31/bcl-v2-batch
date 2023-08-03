@@ -1,4 +1,4 @@
-# Big City Library : BATCH
+# Big City Library v2 : BATCH
 
 ## ✨ Présentation :
 
@@ -10,12 +10,12 @@ Ce projet a pour but la création d’un ensemble d’outils numériques pour le
 
 > **IMPORTANT:**
 > Ce projet fait partie du cursus de formation "Développeur J2EE" de [OpenClassroom](https://openclassrooms.com/).
-> Les informations qu'il comporte ne doivent pas être utilisées dans le cadre d'une pratique réelle. 
+> Les informations qu'il comporte ne doivent pas être utilisées dans le cadre d'une pratique réelle.
 > Les informations présentées ici ne servent qu'à illustrer le projet pour le rendre le plus proche possible de la réalité.
 
 ## 📱 Application :
 
-L'application est un BATCH qui communique avec le RESTFull Serveur. Il permet l'envoit automatique de mails. 
+L'application est un BATCH qui communique avec le RESTFull Serveur. Il permet l'envoit automatique de mails.
 Développé en **Java EE** sur l'**IDE Visual Studio Code**.
 Cette application utilise le framework Spring et les dépendences Lombok & OpenFeign et des JWT pour l'authentification.
 Elle est packagée via **[Maven](https://maven.apache.org/index.html)** dans un fichier `.war` pour être déployée sur un serveur compatible comme : **[Apache TomEE v9.0](https://tomee.apache.org/)**.
