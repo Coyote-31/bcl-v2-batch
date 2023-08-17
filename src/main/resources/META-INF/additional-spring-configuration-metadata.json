@@ -14,6 +14,11 @@
             "name": "cron.zone",
             "type": "java.lang.String",
             "description": "Timezone of the cron job"
+        },
+        {
+            "name": "cron.reservation_notification",
+            "type": "java.lang.String",
+            "description": "Define the cron of the job"
         }
     ]
 }
